@@ -1,45 +1,36 @@
-# 前澤クリニック 全ページレスポンシブ対応版
+# 前澤クリニック 全ページ完成版
 
-**[最新版ZIPをダウンロード（約42MB）](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/maezawa-responsive-all.zip)**
+**[完成版ZIPをダウンロード（約42MB）](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/maezawa-responsive-final.zip)**
 
-ZIPをすべて展開し、`maezawa-responsive/index.html` をブラウザで開いてください。
+ZIPをすべて展開し、`maezawa-responsive/index.html` をブラウザで開いてください。差分の追加は不要です。
 
-## TOPのみの確認版
+## 完成内容
 
-トップページだけ、中央揃えと徒歩7分の案内を調整しました。キャッチコピーを削除し、「武蔵境の内科・小児科」と案内ボタンの余白を詰めた確認版です。
-
-[PC確認画像](preview/home-desktop-top-review.png) / [スマホ確認画像](preview/home-mobile-top-review.png)
-
-[TOP差分ZIP](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/top-review.zip) は前回の全ページ版に重ねて確認する2ファイルの差分です。ほかのページと全ページ納品ZIPは変更していません。
-
-![PC版TOP確認画像](preview/home-desktop-top-review.png)
-
-## 前回の全ページ版の変更
-
-- トップページのキャッチコピーを削除。h1は「武蔵境の内科・小児科」です。
-- スマホのハンバーガーメニューを削除し、グローバルナビを常時表示。
-- ナビは「ホーム・クリニック紹介・診療案内・診療日案内・院長だより・交通案内」の6項目。
-- 「診療案内」ページを新設。13項目のメニューボタンをPCは3列、スマホは画面幅に応じて2列または1列で表示。
-- PDF資料一覧はサイドバーやフッターから利用できます。
+- 確定したTOP：h1「武蔵境の内科・小児科」と案内ボタンを中央揃え。上部キャッチコピーを削除し、余白を調整。
+- 共通ヘッダー：PCはロゴ横に「武蔵境駅南口より徒歩7分」。
+- ナビは「ホーム・クリニック紹介・診療案内・診療日案内・院長だより・交通案内」の6項目を常時表示。バーガーメニューなし。
+- 診療案内は13項目のメニューボタン。PC3列、スマホは画面幅に応じて2列・1列。
+- 全22ページ（ご提供の20ページ＋診療案内＋PDF一覧）とPDF219点すべてを収録。
+- PDF検索、電話ボタン、診療時間表の横スクロールに対応。元の本文とPDFの内容を保持。
 
 ## 表示例
 
-![PC版トップページ](preview/home-desktop.png)
+![PC版トップ](preview/home-desktop.png)
 
-![PC版の診療案内ページ](preview/services-desktop.png)
+![PC版診療案内](preview/services-desktop.png)
 
-<img src="preview/home-mobile.png" alt="スマホ版トップページ" width="300"> <img src="preview/services-mobile.png" alt="スマホ版診療案内ページ" width="300">
+<img src="preview/home-mobile.png" alt="スマホ版トップ" width="300"> <img src="preview/services-mobile.png" alt="スマホ版診療案内" width="300">
 
-## 収録内容・確認
+## 確認結果
 
-提供された全20ページと、診療案内・PDF資料一覧の追加2ページ（合計22ページ）、PDF219点すべてを収録しています。元の本文とPDFの内容を保持しています。
+全22ページを320・390・768・1024・1440pxの5幅で確認（110通り）。ページ全体の横はみ出し、画像読込失敗、JavaScriptエラーなし。ローカルリンク・ページ内アンカー・PDF検索・診療案内13リンクの遷移を確認しました。PDF219点は読込成功と原本とのSHA-256一致を確認しています。
 
-22ページを5つの画面幅で確認（110通り）。横はみ出し、画像読込失敗、JSエラーなし。ローカルリンク・ページ内アンカー・PDF検索を確認し、診療案内の13リンクすべての遷移も確認しました。PDF219点は原本とのSHA-256一致を確認しています。実機Safariや外部サービスの到達性は未検証です。
+実機SafariおよびGoogle地図・カレンダー等の外部サービスの到達性は未検証です。
 
-## 範囲・導入
+## 導入と対象範囲
 
-提供HTMLにない「院内感染対策について」は元サイトへのリンクです。未提供の近隣マップ・駐車場画像も元サイトで開くリンクにしています。住所・アクセス・駐車位置の説明文は収録しています。
+静的HTML版です。WordPress管理画面やPHPテーマは含みません。本番のWordPressテーマへそのまま上書きせず、同梱の `README.txt` を確認してください。
 
-静的HTML版です。WordPress管理画面やPHPテーマは含みません。WordPressテーマへそのまま上書きせず、ZIP内の `README.txt` を確認してください。
+未提供の「院内感染対策について」と地図画像2点は元サイトへのリンクです。住所・アクセス・駐車位置の説明文は収録しています。
 
-初回の2ページ版は `maezawa-responsive.zip` に残っています。最新版は **`maezawa-responsive-all.zip`** です。
+過去の確認版・差分ZIPも履歴として残っています。今回使用するファイルは **`maezawa-responsive-final.zip`** です。`maezawa-responsive-all.zip` も同じ完成版へ更新しています。
