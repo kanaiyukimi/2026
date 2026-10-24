@@ -4,7 +4,17 @@
 
 ZIPをすべて展開し、`maezawa-responsive/index.html` をブラウザで開いてください。
 
-## 今回の変更
+## TOPのみの確認版
+
+トップページだけ、添付見本に合わせた中央揃えと徒歩7分の案内を調整しました。キャッチコピーは見本に合わせて今回の確認版に入れています。
+
+[PC確認画像](preview/home-desktop-top-review.png) / [スマホ確認画像](preview/home-mobile-top-review.png)
+
+[TOP差分ZIP](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/top-review.zip) は前回の全ページ版に重ねて確認する2ファイルの差分です。ほかのページと全ページ納品ZIPは変更していません。
+
+![PC版TOP確認画像](preview/home-desktop-top-review.png)
+
+## 前回の全ページ版の変更
 
 - トップページのキャッチコピーを削除。h1は「武蔵境の内科・小児科」です。
 - スマホのハンバーガーメニューを削除し、グローバルナビを常時表示。
