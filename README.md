@@ -6,7 +6,7 @@ ZIPをすべて展開し、`maezawa-responsive/index.html` をブラウザで開
 
 ## TOPのみの確認版
 
-トップページだけ、添付見本に合わせた中央揃えと徒歩7分の案内を調整しました。キャッチコピーは見本に合わせて今回の確認版に入れています。
+トップページだけ、中央揃えと徒歩7分の案内を調整しました。キャッチコピーを削除し、「武蔵境の内科・小児科」と案内ボタンの余白を詰めた確認版です。
 
 [PC確認画像](preview/home-desktop-top-review.png) / [スマホ確認画像](preview/home-mobile-top-review.png)
 
