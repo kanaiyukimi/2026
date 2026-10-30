@@ -1,5 +1,14 @@
 # 前澤クリニック 全ページ完成版
 
+## GTMタグ追加済みHTML（今回送付分の差し替え用）
+
+**[GTM追加済みHTML ZIPをダウンロード](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/maezawa-gtm-html.zip)**
+
+今回送付されたHTML23ファイル（通常22ページ＋バックアップ1ファイル）すべてに、コンテナID `GTM-5RMLDX9` の公式タグを追加しました。scriptはhead内の文字コード宣言直後、noscriptはbody開始直後です。挿入以外の内容は元ファイルと一致することを確認しています。
+
+現在のサイトをバックアップし、同じフォルダ構成のHTMLを上書きしてください。CSS・JS・画像・PDFは含まれません。既存ファイルをそのまま使います。過去の全ページZIPに戻さず、今回の差し替えZIPをお使いください。実サイトへ反映後はGTMのプレビュー機能で計測接続をご確認ください。
+
+
 **[完成版ZIPをダウンロード（約42MB）](https://github.com/kanaiyukimi/2026/raw/refs/heads/main/maezawa-responsive-final.zip)**
 
 ZIPをすべて展開し、`maezawa-responsive/index.html` をブラウザで開いてください。差分の追加は不要です。
